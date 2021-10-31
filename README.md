@@ -34,7 +34,7 @@ This is ETL script by using Airflow (using local databases)
 (reference: https://medium.com/analytics-vidhya/data-engineering-installing-apache-airflow-on-windows-10-without-docker-93635c3819c3)
 
 ### DAGs:
-Directed Acyclic Graph – is a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies. DAGs are located in 'dags' folder
+Directed Acyclic Graph – is a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies. DAGs are located in 'dags' folder, for detail check $AIRFLOW_HOME/airflow.cfg,
 1. You can set up the connection first before creating DAGs  https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html
 2. Type of operator: MySqlOperator, PostgresOperator, PythonOperator, BashOperator
 3. Example of each operator task can be seen on dags/blankspace_etl.py
