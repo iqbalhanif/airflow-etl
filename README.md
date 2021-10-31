@@ -21,14 +21,14 @@ This is ETL/ELT script by using Airflow (using local databases)
    · sudo apt-add-repository universe <br />
    · sudo apt-get update <br />
    · sudo apt-get install python3-pip <br />
-4. InstalL Airflow
+4. InstalL Airflow <br />
    · export SLUGIFY_USES_TEXT_UNIDECODE=yes <br />
    · sudo pip3 install apache-airflow <br />
-5. Initialize Airflow database, run airflow scheduler and webserver
+5. Initialize Airflow database, run airflow scheduler and webserver <br />
    · airflow db init <br />
    · airflow scheduler <br />
    · airflow webserver -p 8080 <br />
-6. Create admin user and access Airflow GUI
+6. Create admin user and access Airflow GUI <br />
    · airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin <br />
    · airflow GUI in http://localhost:8080/ (access via browser) <br />
    
