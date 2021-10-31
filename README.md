@@ -7,6 +7,7 @@ This is ETL script by using Airflow (using local databases)
 2. Apache Airflow 2.x.x
 3. Ubuntu (OS)
 4. Database (MySQL & PostgreSQL, installed locally)
+5. Several python packages (sqlalchemy, pandas, pymysql, etc)
 
 ### Dataset:
 1. Chinook Dataset (stored in PostgreSQL)
