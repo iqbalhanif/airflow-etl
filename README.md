@@ -41,9 +41,9 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 4. If DAGS is unable to be executed, check permission (ls -l), if the file is not granted yet, use chmod 777 (dags name).py
 
 ### Some airflow command for DAGs:
-1. DAGs list: airflow dags list
-2. Task list in DAG: airflow tasks list (dag_id)
-3. Testing task in DAG: airflow tasks test (dag_id) (task_id) (date_execution in yyyy-mm-dd)
-4. Check next execution schedule: airflow dags next-execution (dag_id)
-5. Pause/unpause DAG: airflow dags pause/unpause (dag_id)
+1. DAGs list            : airflow dags list
+2. Task list in DAG     : airflow tasks list (dag_id)
+3. Testing task in DAG  : airflow tasks test (dag_id) (task_id) (date_execution in yyyy-mm-dd)
+4. Check next schedule  : airflow dags next-execution (dag_id)
+5. Pause/unpause DAG    : airflow dags pause/unpause (dag_id)
 6. You can test the DAGs that you have created by using python: python3 (dag_file.py)
