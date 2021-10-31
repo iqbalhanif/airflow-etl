@@ -1,4 +1,4 @@
-# ETL with Airflow
+# ETL/ELT with Airflow
 
 This is ETL script by using Airflow (using local databases)
 
