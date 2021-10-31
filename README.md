@@ -17,10 +17,10 @@ This is ETL/ELT script by using Airflow (using local databases)
 1. Enable Windows Subsystem for Linux
 2. Install Ubuntu in Microsoft Store
 3. Install python pip
-   · sudo apt-get install software-properties-common
-   · sudo apt-add-repository universe
-   · sudo apt-get update
-   · sudo apt-get install python3-pip
+   · sudo apt-get install software-properties-common \n
+   · sudo apt-add-repository universe \n
+   · sudo apt-get update \n
+   · sudo apt-get install python3-pip \n
 4. InstalL Airflow
    · export SLUGIFY_USES_TEXT_UNIDECODE=yes
    · sudo pip3 install apache-airflow
