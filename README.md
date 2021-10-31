@@ -47,3 +47,5 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 4. Check next schedule  : airflow dags next-execution (dag_id)
 5. Pause/unpause DAG    : airflow dags pause/unpause (dag_id)
 6. You can test the DAGs that you have created by using python: python3 (dag_file.py)
+7. Run the taskin DAG   : airflow tasks run (dag_id) (task_id) (date_execution in yyyy-mm-dd)
+8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyy-mm-dd)
