@@ -22,15 +22,15 @@ This is ETL/ELT script by using Airflow (using local databases)
    · sudo apt-get update <br />
    · sudo apt-get install python3-pip <br />
 4. InstalL Airflow
-   · export SLUGIFY_USES_TEXT_UNIDECODE=yes
-   · sudo pip3 install apache-airflow
+   · export SLUGIFY_USES_TEXT_UNIDECODE=yes <br />
+   · sudo pip3 install apache-airflow <br />
 5. Initialize Airflow database, run airflow scheduler and webserver
-   · airflow db init
-   · airflow scheduler
-   · airflow webserver -p 8080
+   · airflow db init <br />
+   · airflow scheduler <br />
+   · airflow webserver -p 8080 <br />
 6. Create admin user and access Airflow GUI
-   · airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
-   · airflow GUI in http://localhost:8080/ (access via browser)
+   · airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin <br />
+   · airflow GUI in http://localhost:8080/ (access via browser) <br />
    
 (reference: https://medium.com/analytics-vidhya/data-engineering-installing-apache-airflow-on-windows-10-without-docker-93635c3819c3)
 
