@@ -1,6 +1,6 @@
 # ETL/ELT with Airflow
 
-This is ETL script by using Airflow (using local databases)
+This is ETL/ELT script by using Airflow (using local databases)
 
 ### Tools:
 1. Python 3.x.x
