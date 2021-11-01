@@ -34,6 +34,9 @@ This is ETL/ELT script by using Airflow (using local databases)
    
 (reference: https://medium.com/analytics-vidhya/data-engineering-installing-apache-airflow-on-windows-10-without-docker-93635c3819c3)
 
+![1635732825090](https://user-images.githubusercontent.com/18484807/139690676-3a3eebce-9ece-4a64-bba9-20a549befe5c.png)
+
+
 ### DAGs:
 Directed Acyclic Graph – is a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies. DAGs are located in 'dags' folder, for detail check $AIRFLOW_HOME/airflow.cfg,
 1. You can set up the connection first before creating DAGs  https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html
@@ -50,3 +53,5 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 6. You can test the DAGs that you have created by using python: python3 (dag_file.py)
 7. Run the taskin DAG   : airflow tasks run (dag_id) (task_id) (date_execution in yyyy-mm-dd)
 8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyy-mm-dd)
+
+# Data Warehouse
