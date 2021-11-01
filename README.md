@@ -54,7 +54,8 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 7. Run the taskin DAG   : airflow tasks run (dag_id) (task_id) (date_execution in yyyy-mm-dd)
 8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyyy-mm-dd)
 
-
+<br />
+<br />
 
 # Data Warehouse
 
