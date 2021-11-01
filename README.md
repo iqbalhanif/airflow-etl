@@ -54,6 +54,8 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 7. Run the taskin DAG   : airflow tasks run (dag_id) (task_id) (date_execution in yyyy-mm-dd)
 8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyyy-mm-dd)
 
+
+
 # Data Warehouse
 
 Data warehouse (DWH) adalah salah satu jenis sistem manajemen data yang terdiri dari berbagai jenis data dalam jumlah yang besar dan dari sumber yang beragam. Semua data tersebut bisa dianalisis agar bisa menghasilkan informasi penting demi menunjang keputusan perusahaan. Itulah mengapa, warehouse ini disebut sebagai salah satu penunjang aktivitas business intelligence. Dalam bahasa Indonesia, istilah ini kerap disebut gudang data (https://glints.com/id/lowongan/data-warehouse-adalah/#.YX_-UG1Bw2w).
