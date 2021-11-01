@@ -52,6 +52,23 @@ Directed Acyclic Graph – is a collection of all the tasks you want to run, org
 5. Pause/unpause DAG    : airflow dags pause/unpause (dag_id)
 6. You can test the DAGs that you have created by using python: python3 (dag_file.py)
 7. Run the taskin DAG   : airflow tasks run (dag_id) (task_id) (date_execution in yyyy-mm-dd)
-8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyy-mm-dd)
+8. Run DAG backfill     : airflow dag backfill (dag_id) --start-date (yyy-mm-dd) --end-date (yyyy-mm-dd)
 
 # Data Warehouse
+
+Data warehouse (DWH) adalah salah satu jenis sistem manajemen data yang terdiri dari berbagai jenis data dalam jumlah yang besar dan dari sumber yang beragam. Semua data tersebut bisa dianalisis agar bisa menghasilkan informasi penting demi menunjang keputusan perusahaan. Itulah mengapa, warehouse ini disebut sebagai salah satu penunjang aktivitas business intelligence. Dalam bahasa Indonesia, istilah ini kerap disebut gudang data (https://glints.com/id/lowongan/data-warehouse-adalah/#.YX_-UG1Bw2w).
+
+### DWH Schema
+1. Star Schema <br />
+· In a star schema, as the structure of a star, there is one fact table in the middle and a number of associated dimension tables. This structure resembles a star and hence it is known as a star schema. <br />
+· The fact table here consists of primary information in the data warehouse. It surrounds the smaller dimension lookup tables which will have details for different fact tables. The primary key which is present in each dimension is related to a foreign key which is present in the fact table. <br />
+2. Snowflake Schema <br />
+· Snowflake schema acts like an extended version of a star schema. There are additional dimensions added to Star schema. This schema is known as snowflake due to its structure. <br />
+· In this schema, the centralized fact table will be connected to different multiple dimensions. The dimensions present are in normalized form from the multiple related tables which are present. The snowflake structure is detailed and structured when compared to star schema. <br />
+3. Galaxy Schema <br />
+· A fact constellation can consist of multiple fact tables. These are more than two tables that share the same dimension tables. This schema is also known as galaxy schema. <br />
+· It is viewed as a collection of stars and hence the name galaxy. The shared dimensions in this schema are known as conformed dimensions. The dimensions in this schema are separated into segregated dimensions which are having different levels of hierarchy. <br />
+(https://www.educba.com/data-warehouse-schema/)
+
+### Creating DWH
+
