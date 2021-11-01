@@ -41,7 +41,7 @@ This is ETL/ELT script by using Airflow (using local databases)
 Directed Acyclic Graph – is a collection of all the tasks you want to run, organized in a way that reflects their relationships and dependencies. DAGs are located in 'dags' folder, for detail check $AIRFLOW_HOME/airflow.cfg,
 1. You can set up the connection first before creating DAGs  https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html
 2. Type of operator: MySqlOperator, PostgresOperator, PythonOperator, BashOperator
-3. Example of each operator task can be seen on dags/blankspace_etl.py
+3. Example of each operator task can be seen on dags/blankspace_etl.py or ETL_by_step.ipynb
 4. If DAGS is unable to be executed, check permission (ls -l), if the file is not granted yet, use chmod 777 (dags name).py
 
 ### Some airflow command for DAGs:
@@ -74,4 +74,12 @@ Data warehouse (DWH) adalah salah satu jenis sistem manajemen data yang terdiri 
 (https://www.educba.com/data-warehouse-schema/)
 
 ### Creating DWH
+Create data warehouse to get insight about:
+1. What artist their customer love the most (based on quantity/total sales)
+2. What albums are their favorite (based on quantity/total sales)
+3. etc.
+
+query is in the sql/dwh_salesfact.sql
+
+![Star-Schema](https://user-images.githubusercontent.com/18484807/139693575-6b3d59f8-c75e-460c-963b-911e4ef841f1.png)
 
